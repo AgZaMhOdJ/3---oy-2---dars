@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: none;
+    color: #363853;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+span {
+    color: #FF6838;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header a {
+    color: #363853;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #FF6838;
+}
+
+header .sign-up {
+    color: white;
+    background-color: #FF6838;
+    padding: 10px 25px;
+    box-shadow: 0 22px 40px #FF683830;
+    border-radius: 10px;
+}
+
+header .sign-up:hover {
+    color: white
+}
+
+.intro {
+    margin-top: 40px;
+}
+
+.intro .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.intro .container div {
+    width: 48%;
+}
+
+.intro h1 {
+    font-size: 52px;
+}
+
+.intro p {
+    line-height: 26px;
+    color: #363853;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.intro a {
+    color: white;
+    background-color: #FF6838;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 22px 40px #FF683830;
+}
+
+.good-food {
+    margin-top: 40px;
+}
+
+.good-food .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.good-food .container div {
+    width: 45%;
+}
+
+.good-food img {
+    width: 45%;
+}
+
+.good-food h2 {
+    font-size: 32px;
+    width: 90%;
+    line-height: 42px;
+}
+
+.good-food p {
+    margin: 120px 0;
+    line-height: 26px;
+    width: 80%;
+}
+
+.good-food a {
+    color: white;
+    background-color: #FF6838;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 22px 40px #FF683830;
+    border-bottom-right-radius: 0px;
+}
+
+.restaurant h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.restaurant .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant .card {
+    width: 30%;
+    flex-direction: row;
+}
+
+.restaurant .card p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.restaurant .card a {
+    background-color: #FF6838;
+    padding: 7px 25px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 22px 40px #FF683830;
+}
+
+.restaurant .card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribtion {
+    margin: 120px 0;
+}
+
+.subscribtion .container {
+    background-color: #FF6838;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.subscribtion h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.subscribtion input {
+    width: 60%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.subscribtion button {
+    background-color: #FF6838;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    position: absolute;
+    left: 810px;
+    top: 123px;
+}
