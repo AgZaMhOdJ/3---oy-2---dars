@@ -57,7 +57,7 @@ header .sign-up:hover {
 .intro .container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .intro .container div {
@@ -103,7 +103,7 @@ header .sign-up:hover {
 }
 
 .good-food h2 {
-    font-size: 32px;
+    font-size: 36px;
     width: 90%;
     line-height: 42px;
 }
